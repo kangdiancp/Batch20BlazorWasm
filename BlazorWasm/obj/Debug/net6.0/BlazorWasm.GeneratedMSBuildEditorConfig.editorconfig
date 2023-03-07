@@ -50,6 +50,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/bootcamp/Batch20/Batch20FrontEndSolution/BlazorWasm/Shared/MainLayoutAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXRBZG1pbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/bootcamp/Batch20/Batch20FrontEndSolution/BlazorWasm/Shared/Plain/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBsYWluXEZvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/bootcamp/Batch20/Batch20FrontEndSolution/BlazorWasm/Shared/Plain/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBsYWluXEhlYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/bootcamp/Batch20/Batch20FrontEndSolution/BlazorWasm/Shared/Plain/Sidebar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBsYWluXFNpZGViYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/bootcamp/Batch20/Batch20FrontEndSolution/BlazorWasm/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
