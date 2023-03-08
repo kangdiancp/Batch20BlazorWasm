@@ -201,14 +201,16 @@
       "netstandard.dll": "sha256-HhuK9zDkd1N7hODAEiNJ11VF8T54IgrM6hZfLHmHdqM=",
       "System.Private.CoreLib.dll": "sha256-dXaTqyg1PnXPiSwywpic1PVrd7P8Vb5tN0i0\/urdt3E=",
       "Northwind.Contract.dll": "sha256-LFbWNI+rD3\/MzxZOXKtClKtAgaGjGvwhAixbZCL3uuQ=",
-      "BlazorWasm.dll": "sha256-Fr6yUSwYu3iZr\/AQtwCqlKZrjAuj87cz6vFzL7mEhqs="
+      "Northwind.Domain.dll": "sha256-l9hRxgFyHXT7lBgsTBQ9kNtaCcOfeoos\/kmO5NMmXV0=",
+      "BlazorWasm.dll": "sha256-iwAKpKdQL+nIqmGZeHQ1\/xyx+TSeUBf2dqdkw13hyB4="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "Northwind.Contract.pdb": "sha256-EA0gSueLgnc6poZ+Sgkjp85tiSyyAJZjyusOUJ9S1Fk=",
-      "BlazorWasm.pdb": "sha256-9nRNjDlHdYHFoX9Z5ttBb91wMd6Cwo2sbv3sOA+C29E="
+      "Northwind.Domain.pdb": "sha256-ETHh3eUmjBqbrjAfdNIJN1iV60WixR7DQ+6Rkf3OKV4=",
+      "BlazorWasm.pdb": "sha256-QxaohBOmpK+Xut2YCVZLBnKGyyshEUKZEv5\/PWmHGwI="
     },
     "runtime": {
       "dotnet.6.0.8.ow7cvgo8k6.js": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",

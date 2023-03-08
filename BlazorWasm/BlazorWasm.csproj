@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Practise\NorthwindWebSolution\Northwind.Contract\Northwind.Contract.csproj" />
+    <ProjectReference Include="..\..\Practise\NorthwindWebSolution\Northwind.Domain\Northwind.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -597,6 +597,16 @@
         "runtime": {
           "bin/placeholder/Northwind.Contract.dll": {}
         }
+      },
+      "Northwind.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Northwind.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Domain.dll": {}
+        }
       }
     },
     "net6.0/browser-wasm": {
@@ -1188,6 +1198,16 @@
         },
         "runtime": {
           "bin/placeholder/Northwind.Contract.dll": {}
+        }
+      },
+      "Northwind.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Northwind.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Domain.dll": {}
         }
       }
     }
@@ -2124,6 +2144,11 @@
       "type": "project",
       "path": "../../Practise/NorthwindWebSolution/Northwind.Contract/Northwind.Contract.csproj",
       "msbuildProject": "../../Practise/NorthwindWebSolution/Northwind.Contract/Northwind.Contract.csproj"
+    },
+    "Northwind.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Practise/NorthwindWebSolution/Northwind.Domain/Northwind.Domain.csproj",
+      "msbuildProject": "../../Practise/NorthwindWebSolution/Northwind.Domain/Northwind.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2133,6 +2158,7 @@
       "Microsoft.AspNetCore.WebUtilities >= 2.2.0",
       "Microsoft.Extensions.Http >= 7.0.0",
       "Northwind.Contract >= 1.0.0",
+      "Northwind.Domain >= 1.0.0",
       "System.Net.Http.Json >= 7.0.0"
     ]
   },
@@ -2165,6 +2191,9 @@
           "projectReferences": {
             "C:\\bootcamp\\Batch20\\Practise\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj": {
               "projectPath": "C:\\bootcamp\\Batch20\\Practise\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj"
+            },
+            "C:\\bootcamp\\Batch20\\Practise\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj": {
+              "projectPath": "C:\\bootcamp\\Batch20\\Practise\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj"
             }
           }
         }

@@ -837,3 +837,11 @@ C:\bootcamp\Batch20\Batch20FrontEndSolution\BlazorWasm\obj\Debug\net6.0\build-gz
 C:\bootcamp\Batch20\Batch20FrontEndSolution\BlazorWasm\obj\Debug\net6.0\build-gz\1NAONwqY.gz
 C:\bootcamp\Batch20\Batch20FrontEndSolution\BlazorWasm\obj\Debug\net6.0\build-gz\bdJiLy+f.gz
 C:\bootcamp\Batch20\Batch20FrontEndSolution\BlazorWasm\obj\Debug\net6.0\build-gz\CAW95wEv.gz
+C:\bootcamp\Batch20\Batch20FrontEndSolution\BlazorWasm\bin\Debug\net6.0\wwwroot\_framework\Northwind.Domain.dll
+C:\bootcamp\Batch20\Batch20FrontEndSolution\BlazorWasm\bin\Debug\net6.0\wwwroot\_framework\Northwind.Domain.pdb
+C:\bootcamp\Batch20\Batch20FrontEndSolution\BlazorWasm\bin\Debug\net6.0\wwwroot\_framework\Northwind.Domain.pdb.gz
+C:\bootcamp\Batch20\Batch20FrontEndSolution\BlazorWasm\bin\Debug\net6.0\wwwroot\_framework\Northwind.Domain.dll.gz
+C:\bootcamp\Batch20\Batch20FrontEndSolution\BlazorWasm\bin\Debug\net6.0\Northwind.Domain.dll
+C:\bootcamp\Batch20\Batch20FrontEndSolution\BlazorWasm\bin\Debug\net6.0\Northwind.Domain.pdb
+C:\bootcamp\Batch20\Batch20FrontEndSolution\BlazorWasm\obj\Debug\net6.0\build-gz\NK1tZZwh.gz
+C:\bootcamp\Batch20\Batch20FrontEndSolution\BlazorWasm\obj\Debug\net6.0\build-gz\7XTewGIJ.gz
