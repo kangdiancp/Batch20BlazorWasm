@@ -1,0 +1,56 @@
+﻿
+@if (Products.Count > 0)
+{
+    <div class="col-lg-12">
+        <div class="card-style mb-30"></div>
+        <h6>Product Table</h6>
+        <div class="table-wrapper table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="lead-info">
+                            <h6>Lead</h6>
+                        </th>
+                        <th class="lead-email">
+                            <h6>Email</h6>
+                        </th>
+                        <th class="lead-phone">
+                            <h6>Phone No</h6>
+                        </th>
+                        <th class="lead-company">
+                            <h6>Company</h6>
+                        </th>
+                        <th>
+                            <h6>Action</h6>
+                        </th>
+                    </tr>
+                    <!-- end table row-->
+                </thead>
+                <tbody>
+
+                    @foreach (var product in Products)
+                    {
+                        <tr>
+                            <td class="min-width">
+                                <div class="lead">
+
+                                    <div class="lead-text">
+                                        <p>@product.ProductName</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="min-width">
+                                <p><a href="#0">@product.SupplierID</a></p>
+                            </td>
+                        </tr>
+                    }
+
+                    <!-- end table row -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
+else{
+    <span>Product loading...</span>
+}

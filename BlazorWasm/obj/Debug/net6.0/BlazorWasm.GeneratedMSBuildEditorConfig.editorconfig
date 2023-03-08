@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/bootcamp/Batch20/Batch20FrontEndSolution/BlazorWasm/Components/ProductTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9kdWN0VGFibGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/bootcamp/Batch20/Batch20FrontEndSolution/BlazorWasm/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,8 +50,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/bootcamp/Batch20/Batch20FrontEndSolution/BlazorWasm/Pages/Product.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdC5yYXpvcg==
+[C:/bootcamp/Batch20/Batch20FrontEndSolution/BlazorWasm/Pages/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/bootcamp/Batch20/Batch20FrontEndSolution/BlazorWasm/Shared/MainLayoutAdmin.razor]
