@@ -13,5 +13,15 @@ namespace BlazorWasm.HttpRepository
         Task<List<SupplierDto>> GetSupplier();
 
         Task CreateProduct(ProductCreateDto productCreateDto);
+
+        Task UpdateProduct(ProductDto productDto);
+
+        Task<ProductDto> GetProductById(int id);
+
+        Task DeleteProduct(int id);
+
+
+
+
     }
 }

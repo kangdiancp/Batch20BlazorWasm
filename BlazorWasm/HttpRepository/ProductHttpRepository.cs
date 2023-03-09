@@ -33,6 +33,34 @@ namespace BlazorWasm.HttpRepository
             }
         }
 
+        public async Task DeleteProduct(int id)
+        {
+            var url = Path.Combine("product", id.ToString());
+
+            var deleteResult = await _httpClient.DeleteAsync(url);
+            var deleteContent = await deleteResult.Content.ReadAsStringAsync();
+
+            if (!deleteResult.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(deleteContent);
+            }
+        }
+
+        public async Task<ProductDto> GetProductById(int id)
+        {
+            var url = Path.Combine("product", id.ToString());
+
+            var response = await _httpClient.GetAsync(url);
+            var content = await response.Content.ReadAsStringAsync();
+            if (!response.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(content);
+            }
+
+            var product = JsonSerializer.Deserialize<ProductDto>(content, _options);
+            return product;
+        }
+
         public async Task<PagingResponse<ProductDto>> GetProductPaging(ProductParameters productParameters)
         {
             var queryStringParam = new Dictionary<string, string>
@@ -88,6 +116,21 @@ namespace BlazorWasm.HttpRepository
 
             var suppliers = JsonSerializer.Deserialize<List<SupplierDto>>(content, _options);
             return suppliers;
+        }
+
+        public async Task UpdateProduct(ProductDto productDto)
+        {
+            var content = JsonSerializer.Serialize(productDto);
+            var bodyContent = new StringContent(content,Encoding.UTF8,"application/json");
+            var url = Path.Combine("product", productDto.ProductID.ToString());
+
+            var postResult = await _httpClient.PutAsync(url, bodyContent);
+            var postContent = await postResult.Content.ReadAsStringAsync();
+
+            if (!postResult.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(postContent);
+            }
         }
     }
 }

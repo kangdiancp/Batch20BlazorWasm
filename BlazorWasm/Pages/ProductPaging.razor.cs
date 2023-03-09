@@ -49,5 +49,13 @@ namespace BlazorWasm.Pages
             await GetProductPaging();
         }
 
+        private async Task DeleteProduct(int id)
+        {
+            await ProductRepo.DeleteProduct(id);
+            _productParameters.PageNumber = 1;
+            await GetProductPaging();   
+        }
+
+
     }
 }
