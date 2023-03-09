@@ -33,5 +33,21 @@ namespace BlazorWasm.Pages
             ProductListPaging = pagingResponse.Items;
             MetaData = pagingResponse.MetaData;
         }
+
+        private async Task SearchChange(string searchTerm)
+        {
+            Console.WriteLine(searchTerm);
+            _productParameters.PageNumber = 1;
+            _productParameters.SearchTerm = searchTerm;
+            await GetProductPaging();
+        }
+
+        private async Task SortChanged(string orderBy)
+        {
+
+            _productParameters.OrderBy = orderBy;
+            await GetProductPaging();
+        }
+
     }
 }

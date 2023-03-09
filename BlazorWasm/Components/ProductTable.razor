@@ -2,7 +2,7 @@
 @if (Products.Count > 0)
 {
     <div class="col-lg-12">
-        <div class="card-style mb-30"></div>
+
         <h6>Product Table</h6>
         <div class="table-wrapper table-responsive">
             <table class="table">
@@ -15,7 +15,7 @@
                             <h6>Email</h6>
                         </th>
                         <th class="lead-phone">
-                            <h6>Phone No</h6>
+                            <h6>Price</h6>
                         </th>
                         <th class="lead-company">
                             <h6>Company</h6>
@@ -41,6 +41,9 @@
                             </td>
                             <td class="min-width">
                                 <p><a href="#0">@product.SupplierID</a></p>
+                            </td>
+                            <td class="min-width">
+                                <p><a href="#0">@product.UnitPrice</a></p>
                             </td>
                         </tr>
                     }

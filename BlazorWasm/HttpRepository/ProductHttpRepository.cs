@@ -22,7 +22,9 @@ namespace BlazorWasm.HttpRepository
         {
             var queryStringParam = new Dictionary<string, string>
             {
-                ["pageNumber"] = productParameters.PageNumber.ToString()
+                ["pageNumber"] = productParameters.PageNumber.ToString(),
+                ["searchTerm"] = productParameters.SearchTerm == null ? "" : productParameters.SearchTerm,
+                ["orderBy"] = productParameters.OrderBy
             };
 
 
