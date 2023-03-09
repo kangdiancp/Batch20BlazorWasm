@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.WebUtilities;
 using Northwind.Contracts.Models;
 using Northwind.Domain.Entities;
 using Northwind.Domain.RequestFeatures;
+using System.Text;
 using System.Text.Json;
 
 namespace BlazorWasm.HttpRepository
@@ -16,6 +17,20 @@ namespace BlazorWasm.HttpRepository
         {
             _httpClient = httpClient;
             _options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true};
+        }
+
+        public async Task CreateProduct(ProductCreateDto productCreateDto)
+        {
+            var content = JsonSerializer.Serialize(productCreateDto);
+            var bodyContent = new StringContent(content, Encoding.UTF8, "application/json");
+
+            var postResult = await _httpClient.PostAsync("product", bodyContent);
+            var postContent = await postResult.Content.ReadAsStringAsync();
+
+            if (!postResult.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(postContent);
+            }
         }
 
         public async Task<PagingResponse<ProductDto>> GetProductPaging(ProductParameters productParameters)
@@ -60,6 +75,19 @@ namespace BlazorWasm.HttpRepository
 
             var products = JsonSerializer.Deserialize<List<ProductDto>>(content,_options);
             return products;
+        }
+
+        public async Task<List<SupplierDto>> GetSupplier()
+        {
+            var response = await _httpClient.GetAsync("supplier");
+            var content = await response.Content.ReadAsStringAsync();
+            if (!response.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(content);
+            }
+
+            var suppliers = JsonSerializer.Deserialize<List<SupplierDto>>(content, _options);
+            return suppliers;
         }
     }
 }

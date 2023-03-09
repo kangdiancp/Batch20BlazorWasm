@@ -1,0 +1,116 @@
+﻿@page "/createProduct"
+
+<div class="col-lg-12">
+    <div class="card-style settings-card-2 mb-30">
+        <div class="title mb-30">
+            <h6>Create Product</h6>
+        </div>
+        <EditForm Model="_product" OnValidSubmit="Create">
+            <DataAnnotationsValidator />
+            <div class="row">
+                <div class="col-4">
+                    <div class="input-style-1">
+                        <label for="name">Name:</label>
+
+                        <InputText id="ProductName" @bind-Value="_product.ProductName" />
+                        <ValidationMessage For="@(() => _product.ProductName)" />
+
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="input-style-1">
+                        <label for="price">Supplier:</label>
+
+                        <InputSelect @bind-Value="_product.SupplierId" class="form-control">
+                            <option value=""></option>
+                            @foreach (var item in suppliers)
+                            {
+                                <option value="@item.SupplierId">@item.CompanyName</option>
+                            }
+                        </InputSelect>
+
+                        @*<InputNumber id="categoryId" @bind-Value="_product.SupplierID" />
+                        <ValidationMessage For="@(() => _product.SupplierID)" />*@
+
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="input-style-1">
+                        <label for="price">CategoryId:</label>
+                        <div class="col-md-10">
+                            <InputNumber id="categoryId" @bind-Value="_product.CategoryId" />
+                            <ValidationMessage For="@(() => _product.CategoryId)" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="input-style-1">
+                        <label for="price">Qty Per Unit:</label>
+                        <div class="col-md-10">
+                            <InputText id="qtyperunit" @bind-Value="_product.QuantityPerUnit" />
+                            <ValidationMessage For="@(() => _product.QuantityPerUnit)" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="input-style-1">
+                        <label for="price">Price:</label>
+                        <div class="col-md-10">
+                            <InputNumber id="categoryId" @bind-Value="_product.UnitPrice" />
+                            <ValidationMessage For="@(() => _product.UnitPrice)" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="input-style-1">
+                        <label for="price">UnitsInStock:</label>
+                        <div class="col-md-10">
+                            <InputNumber id="UnitsInStock" @bind-Value="_product.UnitsInStock" />
+                            <ValidationMessage For="@(() => _product.UnitsInStock)" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="input-style-1">
+                        <label for="UnitsOnOrder">UnitsOnOrder:</label>
+                        <div class="col-md-10">
+                            <InputNumber id="UnitsOnOrder" @bind-Value="_product.UnitsOnOrder" />
+                            <ValidationMessage For="@(() => _product.UnitsOnOrder)" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="input-style-1">
+                        <label for="ReorderLevel">ReorderLevel:</label>
+                        <div class="col-md-10">
+                            <InputNumber id="categoryId" @bind-Value="_product.ReorderLevel" />
+                            <ValidationMessage For="@(() => _product.ReorderLevel)" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form-check checkbox-style mb-20">
+                    <InputCheckbox id="categoryId" class="form-check-input" @bind-Value="_product.Discontinued" />
+                    <ValidationMessage For="@(() => _product.Discontinued)" />
+                    <label class="form-check-label" for="checkbox-1">
+                        Discontinue
+                    </label>
+                </div>
+
+
+
+                <div class="col-12">
+                    <button class="main-btn primary-btn btn-hover">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </EditForm>
+
+    </div>
+    <!-- end card -->
+</div>
+
+<SuccessNotification @ref="_notification" />

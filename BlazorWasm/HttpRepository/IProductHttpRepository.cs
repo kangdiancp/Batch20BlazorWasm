@@ -9,5 +9,9 @@ namespace BlazorWasm.HttpRepository
         Task<List<ProductDto>> GetProducts();
 
         Task<PagingResponse<ProductDto>> GetProductPaging(ProductParameters productParameters);
+
+        Task<List<SupplierDto>> GetSupplier();
+
+        Task CreateProduct(ProductCreateDto productCreateDto);
     }
 }
