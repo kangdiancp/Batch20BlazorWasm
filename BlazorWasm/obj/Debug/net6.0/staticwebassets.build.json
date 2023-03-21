@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3Dc+4vZlReywqURtQAx8RYipCUVigne3uc7PDZQBKno=",
+  "Hash": "Sq+BRzhI35r+RB+v28YtaJEsxs/8yPleXZtw5XS/vIM=",
   "Source": "BlazorWasm",
   "BasePath": "/",
   "Mode": "Root",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.8\\build\\net6.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\blazored.localstorage\\4.3.0\\lib\\net6.0\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BlazorWasm.dll",
@@ -218,7 +235,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.15\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.15\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -235,7 +269,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.15\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -320,7 +354,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.15\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.WebUtilities.dll",
@@ -4267,6 +4301,23 @@
       "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encoding.dll"
     },
     {
+      "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\bXbeSXOi.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
+    },
+    {
       "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\By+8LbAl.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -4794,23 +4845,6 @@
       "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.Csp.dll"
     },
     {
-      "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\GCPdU90k.gz",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
       "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\gJeA37+j.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -4843,6 +4877,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.XPath.dll"
+    },
+    {
+      "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\gt+aTCBu.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\gUDvNr1F.gz",
@@ -4911,23 +4962,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.XmlDocument.dll"
-    },
-    {
-      "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\HAUW3cRu.gz",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\HbLzHRk+.gz",
@@ -6137,23 +6171,6 @@
       "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Private.Runtime.InteropServices.JavaScript.dll"
     },
     {
-      "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\sARkRaGJ.gz",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
-    },
-    {
       "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\shrZ5Vtc.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -6681,6 +6698,23 @@
       "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.UnmanagedMemoryStream.dll"
     },
     {
+      "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\W4JvzmHJ.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\wBkTK+nO.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -6815,6 +6849,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Queryable.dll"
+    },
+    {
+      "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\x+8Mp5Vj.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\x+bx9giK.gz",
@@ -7070,6 +7121,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.SecureString.dll"
+    },
+    {
+      "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\zw4W7k+N.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\bootcamp\\Batch20\\Batch20FrontEndSolution\\BlazorWasm\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorWasm.styles.css",
@@ -9739,6 +9807,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\7.0.4\\staticwebassets\\AuthenticationService.js",
+      "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\7.0.4\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "RelativePath": "AuthenticationService.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\7.0.4\\staticwebassets\\AuthenticationService.js"
     }
   ]
 }

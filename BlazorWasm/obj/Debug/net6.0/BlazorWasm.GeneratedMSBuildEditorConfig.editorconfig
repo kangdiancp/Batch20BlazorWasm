@@ -66,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/bootcamp/Batch20/Batch20FrontEndSolution/BlazorWasm/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/bootcamp/Batch20/Batch20FrontEndSolution/BlazorWasm/Pages/ProductPaging.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFBhZ2luZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -76,6 +80,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/bootcamp/Batch20/Batch20FrontEndSolution/BlazorWasm/Pages/UpdateProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/bootcamp/Batch20/Batch20FrontEndSolution/BlazorWasm/Shared/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/bootcamp/Batch20/Batch20FrontEndSolution/BlazorWasm/Shared/MainLayoutAdmin.razor]

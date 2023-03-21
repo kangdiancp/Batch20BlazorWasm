@@ -1,4 +1,32 @@
-﻿<Router AppAssembly="@typeof(App).Assembly">
+﻿@using Microsoft.AspNetCore.Components.Authorization
+
+<CascadingAuthenticationState>
+<Router AppAssembly="@typeof(App).Assembly">
+    <Found Context="routeData">
+        @*<RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayoutPlainAdmin)" />
+        <FocusOnNavigate RouteData="@routeData" Selector="h1" />*@
+            <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayoutAdmin)">
+                <Authorizing>
+                    <text>Please wait, we are authorizint the user.</text>
+                </Authorizing>
+                <NotAuthorized>
+                  <BlazorWebApp.Shared.RedirectToLogin></BlazorWebApp.Shared.RedirectToLogin>
+                  @*  <text> You are not authorized to access this page. </text>*@
+                  
+                </NotAuthorized>
+            </AuthorizeRouteView>
+    </Found>
+    <NotFound>
+        <PageTitle>Not found</PageTitle>
+            <LayoutView Layout="@typeof(MainLayoutAdmin)">
+            <p role="alert">Sorry, there's nothing at this address.</p>
+        </LayoutView>
+    </NotFound>
+</Router>
+</CascadingAuthenticationState>
+
+
+@*<Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayoutAdmin)" />
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
@@ -10,3 +38,4 @@
         </LayoutView>
     </NotFound>
 </Router>
+*@
